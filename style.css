@@ -73,3 +73,18 @@ button {
 h4 {
     grid-column: span 2;
 }
+/* Make left side a positioning container */
+.left-side {
+    flex: 1;
+    background-image: url('images/background.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative; /* allows absolute positioning of logo */
+}
+/* Logo styling */
+.logo {
+    position: absolute;
+    top: 20px; /* distance from top */
+    left: 20px; /* distance from left */
+    width: 100px; /* adjust size */
+}
