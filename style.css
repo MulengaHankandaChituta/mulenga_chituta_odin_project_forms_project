@@ -90,7 +90,13 @@ h4 {
 }
 /* Logo image */
 .logo-container {
-    width: 80px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centers the container */
+    display: flex; /* puts logo and text side by side */
+    align-items: center;
+    gap: 15px;
 }
 /* ODIN text */
 .logo-container h1 {
@@ -98,4 +104,8 @@ h4 {
     font-size: 60px;
     color: white;
     margin: 0;
+}
+/* logo container image */
+.logo-container img {
+    width: 80px;
 }
