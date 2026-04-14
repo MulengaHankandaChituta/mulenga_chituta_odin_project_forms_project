@@ -80,23 +80,9 @@ h4 {
     background-size: cover;
     background-position: center;
     position: relative; /* allows absolute positioning of logo */
-}
-/* Logo styling */
-.logo {
-    position: absolute;
-    top: 20px; /* distance from top */
-    left: 20px; /* distance from left */
-    width: 100px; /* adjust size */
-}
-/* Logo image */
-.logo-container {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%, -50%); /* centers the container */
-    display: flex; /* puts logo and text side by side */
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
 }
 /* ODIN text */
 .logo-container h1 {
@@ -108,4 +94,9 @@ h4 {
 /* logo container image */
 .logo-container img {
     width: 80px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
