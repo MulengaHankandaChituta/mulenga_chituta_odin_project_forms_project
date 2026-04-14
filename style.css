@@ -31,7 +31,7 @@ body {
 /* Align text to the right */
 .right-side p,
 .right-side h3 {
-    text-align: right;
+    text-align: left;
 }
 /* Form layout */
 form {
