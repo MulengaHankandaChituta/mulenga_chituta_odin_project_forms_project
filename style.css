@@ -88,3 +88,14 @@ h4 {
     left: 20px; /* distance from left */
     width: 100px; /* adjust size */
 }
+/* Logo image */
+.logo-container {
+    width: 80px;
+}
+/* ODIN text */
+.logo-container h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
