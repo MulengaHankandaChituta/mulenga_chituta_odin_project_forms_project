@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Norse";
+    src: url("fonts/Norsebold.otf") format("opentype");
+}
 /* Remove default spacing */
 body {
     margin: 0;
@@ -88,7 +92,7 @@ h4 {
 }
 /* ODIN text */
 .logo-container h1 {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Norse", sans-serif;
     font-size: 60px;
     color: white;
     margin: 0;
